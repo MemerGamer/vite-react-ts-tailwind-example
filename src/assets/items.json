@@ -1,0 +1,32 @@
+[
+  {
+    "name": "iPhone X",
+    "description": "The iPhone X features a stunning edge-to-edge display and a powerful A11 Bionic chip.",
+    "price": 999.99,
+    "image": "/img/iphone_x.png"
+  },
+  {
+    "name": "Samsung Galaxy A52",
+    "description": "The Samsung Galaxy A52 combines a sleek design with a high-quality camera and long-lasting battery.",
+    "price": 799.99,
+    "image": "/img/samsung_galaxy_a52.png"
+  },
+  {
+    "name": "Google Pixel 5",
+    "description": "The Google Pixel 5 offers an excellent camera system and a clean Android experience.",
+    "price": 699.99,
+    "image": "/img/google_pixel_5.png"
+  },
+  {
+    "name": "OnePlus 9 Pro",
+    "description": "The OnePlus 9 Pro is a flagship phone with a high refresh rate display and fast charging capabilities.",
+    "price": 899.99,
+    "image": "/img/oneplus_9_pro.png"
+  },
+  {
+    "name": "Xiaomi Mi 9 Pro",
+    "description": "The Xiaomi Mi 9 Pro boasts a powerful Snapdragon processor and a stunning AMOLED display.",
+    "price": 1199.99,
+    "image": "/img/xiaomi_mi_9_pro.png"
+  }
+]
