@@ -15,6 +15,10 @@ This projects purpose is to show how to use these technologies together.
 
 Since this project is only a frontend project, it reads the data from a [`items.json`](./src/assets/items.json) file.
 
+## Demo
+
+[Phone Catalogue](https://phone-catalogue.kovacsbalinthunor.com/)
+
 ## Usage
 
 ### Clone repository
