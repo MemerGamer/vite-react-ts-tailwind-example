@@ -9,7 +9,7 @@ interface ItemProps {
 
 
 
-const Item: React.FC<ItemProps> = ({ href, onClick, children }) => {
+const Item: React.FC<ItemProps> = ({ href, onClick, children, target }) => {
     const handleClick = () => {
         if (onClick) {
             onClick();
@@ -22,10 +22,10 @@ const Item: React.FC<ItemProps> = ({ href, onClick, children }) => {
             className="block px-4 py-2 text-sm capitalize text-gray-700 hover:bg-indigo-600 hover:text-white dark:text-white"
             onClick={handleClick} // Add onClick event handler
             // only add target if it is defined
-            target={onClick ? undefined : '_blank'}
+            target={target ? target : undefined}
         >
             {children}
-        </a>
+        </a >
     );
 };
 
