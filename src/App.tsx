@@ -1,22 +1,22 @@
-import { Phone } from './types';
 import Navbar from './components/Navbar';
-import MasterComponent from './components/MasterComponent';
-import GridComponents from './components/GridComponents';
-
+import Home from './components/Home';
+import Notfound from './components/Notfound';
+import { Phone } from './types';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 interface AppProps {
   items: Phone[];
 }
-
 function App({ items }: AppProps) {
-  const [masterPhone, ...otherPhones] = items;
-
   return (
-    <div className="space-y-4 dark:bg-gray-800">
-      <Navbar />
-
-      <MasterComponent phone={masterPhone} />
-      <GridComponents phones={otherPhones} />
-    </div>
+    <Router>
+      <div className="">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home items={items} />} />
+          <Route path="*" element={<Notfound />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
