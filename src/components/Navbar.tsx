@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
             <div className="container mx-auto flex justify-between items-center">
                 <h1 className="text-xl font-bold">Phone Catalogue</h1>
                 <div>
-                    <Button onClick={handleButtonClick}>
+                    <Button onClick={handleButtonClick} name="menu-button">
                         <span>
                             <Bars3Icon className="h-5 w-5 text-white" />
                         </span>
